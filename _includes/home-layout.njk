@@ -93,6 +93,22 @@
       font-weight: 300;
       letter-spacing: 1px;
     }
+    header a.btn {
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: rgba(255,255,255,0.8);
+      background-color: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.2);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 0.3rem;
+      transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+      padding: 0.6rem 0.9rem;
+      font-size: 0.9rem;
+    }
+    .btn+.btn {
+      margin-left: 1rem;
+    }
     main h2 {
       color: var(--highlight-color, #159957);
       margin: 1rem 0;
@@ -108,6 +124,12 @@
       a:hover {
         box-shadow: 0 2px;
       }
+      header a.btn:hover {
+        box-shadow: none;
+        color: rgba(255,255,255,1);
+        background-color: rgba(255,255,255,0.2);
+        border-color: rgba(255,255,255,0.4);
+      }
     }
     @media(max-width: 600px) {
       pre[class*="language-"] {
@@ -118,9 +140,19 @@
         font-size: 12px;
         line-height: 1.5;
       }
+      header a.btn {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 0.9rem;
+        box-sizing: border-box;
+      }
+      .btn+.btn {
+        margin-left: 0;
+      }
     }
   </style>
-  <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+  <link rel="stylesheet" href="{{ '/css/prism-vs.css' | url }}">
 </head>
 
 <body>
@@ -128,6 +160,11 @@
     <header>
       <h1>Rough.js</h1>
       <h2>Create graphics with a hand-drawn, sketchy, appearance</h2>
+      <div>
+        <a href="https://github.com/pshihn/rough" class="btn">View on GitHub</a>
+        <a href="https://github.com/pshihn/rough/wiki" class="btn">Full API</a>
+        <a href="https://twitter.com/RoughLib" class="btn">Twitter</a>
+      </div>
       <div style="padding-top: 10px;">
         <a class="github-button" href="https://github.com/pshihn/rough" data-size="large" data-show-count="true" aria-label="Star pshihn/rough on GitHub">Star</a>
         <a class="github-button" href="https://github.com/pshihn/rough/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork pshihn/rough on GitHub">Fork</a>
