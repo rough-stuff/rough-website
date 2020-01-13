@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rough.js</title>
+  <meta name="description" content="Rough.js is a light weight javascript library that lets you draw graphics with a hand-drawn, sketchy, appearance.">
+]
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rough.js">
+  <meta property="og:description" content="Rough.js is a light weight javascript library that lets you draw graphics with a hand-drawn, sketchy, appearance.">
+  <meta property="og:image" content="https://roughjs.com/images/cap_demo.png">
+  <meta property="og:image:width" content="739">
+  <meta property="og:image:height" content="238">
+
+  <meta name="twitter:site" value="@RoughLib">
+  <meta name="twitter:card" value="summary_large_image">
+  <meta property="twitter:title" content="Rough.js">
+  <meta property="twitter:description" content="Rough.js is a light weight javascript library that lets you draw graphics with a hand-drawn, sketchy, appearance.">
+  <meta property="twitter:image" content="https://roughjs.com/images/cap_demo.png">
+  <meta name="twitter:image:width" content="739">
+  <meta name="twitter:image:height" content="238">
+
+  <link rel="icon" href="/images/fav.jpg" type="image/jpg">
+
+  <style>
+    body {
+      margin: 0;
+      font-weight: 400;
+      font-size: 18px;
+      font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+      -webkit-font-smoothing: subpixel-antialiased;
+      --highlight-color: #159957;
+      line-height: 1.5;
+      color: #606c71;
+    }
+    a, a:hover, a:visited {
+      color: #155799;
+      outline: none;
+      text-decoration: none;
+    }
+    main {
+      padding: 16px 12px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    pre,
+    code {
+      font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+      line-height: 1.5;
+      font-size: 14px;
+      background: #f0f0f0;
+    }
+    pre {
+      font-size: 14px;
+      line-height: 1.375;
+      direction: ltr;
+      text-align: left;
+      white-space: pre;
+      word-spacing: normal;
+      word-break: normal;
+      -moz-tab-size: 2;
+      -o-tab-size: 2;
+      tab-size: 2;
+      -webkit-hyphens: none;
+      -moz-hyphens: none;
+      -ms-hyphens: none;
+      hyphens: none;
+      padding: 1em;
+      margin: .5em 0;
+      background-color: #f6f6f6;
+    }
+    main pre[class*="language-"] {
+      margin: 1em 0;
+    }
+    header {
+      color: #fff;
+      text-align: center;
+      background-color: #159957;
+      background-image: linear-gradient(120deg, #155799, #159957);
+      padding: 40px 16px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 300;
+    }
+    header h2 {
+      margin: 1em 0;
+      font-size: 24px;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+    header a.btn {
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: rgba(255,255,255,0.8);
+      background-color: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.2);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 0.3rem;
+      transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+      padding: 0.6rem 0.9rem;
+      font-size: 0.9rem;
+    }
+    .btn+.btn {
+      margin-left: 1rem;
+    }
+    main h2 {
+      color: var(--highlight-color, #159957);
+      margin: 1rem 0;
+      font-weight: normal;
+      font-size: 28px;
+    }
+    main h3 {
+      color: var(--highlight-color, #159957);
+      margin: 1rem 0;
+      font-weight: normal;
+      font-size: 24px;
+    }
+    main img {
+      box-sizing: border-box;
+      max-width: 100%;
+    }
+
+    @media(hover: hover) {
+      a:hover {
+        box-shadow: 0 2px;
+      }
+      header a.btn:hover {
+        box-shadow: none;
+        color: rgba(255,255,255,1);
+        background-color: rgba(255,255,255,0.2);
+        border-color: rgba(255,255,255,0.4);
+      }
+    }
+    @media(max-width: 600px) {
+      pre[class*="language-"] {
+        padding: 0.5em;
+      }
+      code[class*="language-"],
+      pre[class*="language-"] {
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      header a.btn {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 0.9rem;
+        box-sizing: border-box;
+      }
+      .btn+.btn {
+        margin-left: 0;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="{{ '/css/prism-vs.css' | url }}">
+</head>
+
+<body>
+  <article>
+    <header>
+      <h1>Rough.js</h1>
+      <h2>Create graphics with a hand-drawn, sketchy, appearance</h2>
+      <div>
+        <a href="https://github.com/pshihn/rough" class="btn">View on GitHub</a>
+        <a href="https://github.com/pshihn/rough/wiki" class="btn">Full API</a>
+        <a href="https://twitter.com/RoughLib" class="btn">Twitter</a>
+      </div>
+      <div style="padding-top: 10px;">
+        <a class="github-button" href="https://github.com/pshihn/rough" data-size="large" data-show-count="true" aria-label="Star pshihn/rough on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/pshihn/rough/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork pshihn/rough on GitHub">Fork</a>
+      </div>
+    </header>
+    <main>
+    {{ content | safe }}
+    </main>
+  </article>
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script>
+    window.ga = window.ga || ((...args) => (ga.q = ga.q || []).push(args));
+    ga("create", "UA-86217723-2", "auto");
+    ga("set", "transport", "beacon");
+    ga("send", "pageview");
+    const s = document.createElement("script");
+    s.src = "https://www.google-analytics.com/analytics.js";
+    document.head.appendChild(s);
+  </script>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 ---
-layout: home-layout.njk
+layout: post-layout.njk
 ---
 
 ## Release v4.0.0 (January 13th, 2020)
