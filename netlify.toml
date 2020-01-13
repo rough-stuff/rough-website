@@ -1,0 +1,8 @@
+[build]
+  publish = "_site"
+  command = "eleventy"
+
+# 404s
+[[redirects]]
+  from = "*"
+  to = "/"

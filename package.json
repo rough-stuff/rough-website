@@ -1,0 +1,26 @@
+{
+  "name": "rough-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for RoughJS (https://roughjs.com/)",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshihn/rough-website.git"
+  },
+  "author": "Preet Shihn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshihn/rough-website/issues"
+  },
+  "homepage": "https://github.com/pshihn/rough-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
+  }
+}
