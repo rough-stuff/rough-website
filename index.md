@@ -9,7 +9,7 @@ The library defines primitives to draw lines, curves, arcs, polygons, circles, a
 
 Rough.js works with both [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) and [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG).
 
-![Rough.js sample](/images/cap_demo.png)
+![Rough.js sample](/images/cap.png)
 
 
 ## Install
@@ -28,7 +28,7 @@ import rough from 'roughjs';
 
 ## Usage
 
-View [Full Rough.js API](https://github.com/pshihn/rough/wiki) is available on Github. 
+View [Full Rough.js API](https://github.com/rough-stuff/rough/wiki) is available on Github. 
 
 ![Rough.js rectangle](/images/m1.png)
 
@@ -110,11 +110,11 @@ SVG Path with simplification:
 
 ![Rough.js map](/images/m6.png)
 
-[View examples here](https://github.com/pshihn/rough/wiki/Examples)
+[View examples here](https://github.com/rough-stuff/rough/wiki/Examples)
 
 ## API & Documentation
 
-[Full Rough.js API](https://github.com/pshihn/rough/wiki)
+[Full Rough.js API](https://github.com/rough-stuff/rough/wiki)
 
 ## Credits
 
@@ -124,4 +124,4 @@ Algorithm to convert SVG arcs to Canvas [described here](https://www.w3.org/TR/S
 
 
 ## License
-[MIT License](https://github.com/pshihn/rough/blob/master/LICENSE) (c) [Preet Shihn](https://twitter.com/preetster)
+[MIT License](https://github.com/rough-stuff/rough/blob/master/LICENSE) (c) [Preet Shihn](https://twitter.com/preetster)
