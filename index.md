@@ -112,9 +112,15 @@ SVG Path with simplification:
 
 [View examples here](https://github.com/rough-stuff/rough/wiki/Examples)
 
+## Support this project
+
+Support development of this project by sponsoring on [Open Collective](https://opencollective.com/rough) or [Github](https://github.com/sponsors/pshihn).
+
 ## API & Documentation
 
 [Full Rough.js API](https://github.com/rough-stuff/rough/wiki)
+
+
 
 ## Credits
 
