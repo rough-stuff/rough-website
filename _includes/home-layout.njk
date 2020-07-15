@@ -42,9 +42,10 @@
       text-decoration: none;
     }
     main {
-      padding: 16px 12px;
+      padding: 16px 300px 16px 10px;
       max-width: 700px;
       margin: 0 auto;
+      position: relative;
     }
     pre,
     code {
@@ -125,6 +126,26 @@
       box-sizing: border-box;
       max-width: 100%;
     }
+    a.sponsor-card {
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      max-width: 170px;
+      font-size: 13px;
+      border: 1px solid #e5e5e5;
+      border-radius: 5px;
+      padding: 8px;
+    }
+    .sponsor-card h5 {
+      margin: 4px 0;
+      font-size: 16px;
+    }
+    #sponsorPanel {
+      font-size: 13px;
+      position: absolute;
+      top: 80px;
+      right: 0;
+    }
 
     @media(hover: hover) {
       a:hover {
@@ -136,7 +157,21 @@
         background-color: rgba(255,255,255,0.2);
         border-color: rgba(255,255,255,0.4);
       }
+      a.sponsor-card:hover {
+        box-shadow: none;
+        border-color: var(--highlight-color);
+      }
     }
+
+    @media(max-width: 1024px) {
+      main {
+        padding: 16px 12px;
+      }
+      #sponsorPanel {
+        display: none;
+      }
+    }
+    
     @media(max-width: 600px) {
       pre[class*="language-"] {
         padding: 0.5em;
