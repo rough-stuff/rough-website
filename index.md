@@ -131,3 +131,33 @@ Algorithm to convert SVG arcs to Canvas [described here](https://www.w3.org/TR/S
 
 ## License
 [MIT License](https://github.com/rough-stuff/rough/blob/master/LICENSE) (c) [Preet Shihn](https://twitter.com/preetster)
+
+## Sponsors
+
+This project is supported by:
+
+<a href="https://sheetjs.com/" target="_blank" rel="noopener" class="sponsor-card">
+  <img style="width: 90px; height: 90px; margin-right: 8px;" src="/images/sponsors/sheetjs.png">
+  <div>
+    <h5>SheetJS</h5>
+    <div>Spreadsheets simplified.
+Read, edit, and export spreadsheets
+Works in web browsers and servers
+Supports every Excel file format</div>
+  </div>
+</a>
+<p></p>
+
+<div id="sponsorPanel">
+<p>This project is supported by:</p>
+<a href="https://sheetjs.com/" target="_blank" rel="noopener" class="sponsor-card">
+  <img style="width: 90px; height: 90px; margin-right: 8px;" src="/images/sponsors/sheetjs.png">
+  <div>
+    <h5>SheetJS</h5>
+    <div>Spreadsheets simplified.
+Read, edit, and export spreadsheets
+Works in web browsers and servers
+Supports every Excel file format</div>
+  </div>
+</a>
+</div>
