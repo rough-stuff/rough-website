@@ -141,9 +141,9 @@ This project is supported by:
   <div>
     <h5>SheetJS</h5>
     <div>Spreadsheets simplified.
-Read, edit, and export spreadsheets
-Works in web browsers and servers
-Supports every Excel file format</div>
+Read, edit, and export spreadsheets.
+Works in web browsers and servers.
+Supports every Excel file format.</div>
   </div>
 </a>
 <p></p>
@@ -155,9 +155,9 @@ Supports every Excel file format</div>
   <div>
     <h5>SheetJS</h5>
     <div>Spreadsheets simplified.
-Read, edit, and export spreadsheets
-Works in web browsers and servers
-Supports every Excel file format</div>
+Read, edit, and export spreadsheets.
+Works in web browsers and servers.
+Supports every Excel file format.</div>
   </div>
 </a>
 </div>
