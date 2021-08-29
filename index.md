@@ -112,10 +112,6 @@ SVG Path with simplification:
 
 [View examples here](https://github.com/rough-stuff/rough/wiki/Examples)
 
-## Support this project
-
-Support development of this project by sponsoring on [Open Collective](https://opencollective.com/rough) or [Github](https://github.com/sponsors/pshihn).
-
 ## API & Documentation
 
 [Full Rough.js API](https://github.com/rough-stuff/rough/wiki)
@@ -127,6 +123,33 @@ Support development of this project by sponsoring on [Open Collective](https://o
 Core algorithms for drawing lines and ellipse outlines were adapted from [handy](https://www.gicentre.net/software/#/handy/) processing lib.
 
 Algorithm to convert SVG arcs to Canvas [described here](https://www.w3.org/TR/SVG/implnote.html) was adapted from [Mozilla codebase](https://hg.mozilla.org/mozilla-central/file/17156fbebbc8/content/svg/content/src/nsSVGPathDataParser.cpp#l887)
+
+
+## Support this project
+
+Support development of this project by sponsoring on [Open Collective](https://opencollective.com/rough) or [Github](https://github.com/sponsors/pshihn).
+
+This project is supported by:
+
+<a href="https://www.diagrams.net/" target="_blank" rel="noopener" class="sponsor-card">
+  <img style="width: 90px; height: 90px; margin-right: 8px;" src="https://avatars.githubusercontent.com/u/1769238?s=96&v=4">
+  <div>
+    <h5>Diagrams.net</h5>
+    <div>Security-first diagramming for teams.</div>
+  </div>
+</a>
+
+<a href="https://sheetjs.com/" target="_blank" rel="noopener" class="sponsor-card">
+  <img style="width: 90px; height: 90px; margin-right: 8px;" src="/images/sponsors/sheetjs.png">
+  <div>
+    <h5>SheetJS</h5>
+    <div>Spreadsheets simplified.
+Read, edit, and export spreadsheets.
+Works in web browsers and servers.
+Supports every Excel file format.</div>
+  </div>
+</a>
+
 
 
 ## License
