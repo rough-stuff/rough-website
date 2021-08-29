@@ -126,20 +126,35 @@
       box-sizing: border-box;
       max-width: 100%;
     }
+    .sponsorsPanel {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
     a.sponsor-card {
       color: inherit;
       display: inline-flex;
       flex-direction: column;
-      max-width: 170px;
       font-size: 13px;
       border: 1px solid #e5e5e5;
       border-radius: 5px;
       padding: 8px;
-      margin: 0 4px 4px 0;
+      margin: 8px 8px 8px 0;
+      flex: 1;
+      flex-basis: 0.000000001px;
+      min-width: 148px;
+      max-width: calc(50% - 24px);
     }
     .sponsor-card h5 {
       margin: 4px 0;
       font-size: 16px;
+      text-align: center;
+    }
+    a.sponsor-card img {
+      width: 90px;
+      height: 90px;
+      display: block;
+      margin: 0 auto
     }
 
     @media(hover: hover) {

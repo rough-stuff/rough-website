@@ -127,20 +127,31 @@ Algorithm to convert SVG arcs to Canvas [described here](https://www.w3.org/TR/S
 
 ## Support this project
 
-Support development of this project by sponsoring on [Open Collective](https://opencollective.com/rough) or [Github](https://github.com/sponsors/pshihn).
+Support development of this project by sponsoring on [Github](https://github.com/sponsors/pshihn).<br>
+Alternatively, you can also sponsor or [Open Collective](https://opencollective.com/rough). 
 
 This project is supported by:
 
+<div class="sponsorsPanel">
+
 <a href="https://www.diagrams.net/" target="_blank" rel="noopener" class="sponsor-card">
-  <img style="width: 90px; height: 90px; margin-right: 8px;" src="https://avatars.githubusercontent.com/u/1769238?s=96&v=4">
+  <img src="https://avatars.githubusercontent.com/u/1769238?s=96&v=4">
   <div>
     <h5>Diagrams.net</h5>
     <div>Security-first diagramming for teams.</div>
   </div>
 </a>
 
+<a href="https://terrastruct.com/" target="_blank" rel="noopener" class="sponsor-card">
+  <img src="/images/sponsors/terrastruct.png">
+  <div>
+    <h5>Terrastruct</h5>
+    <div>Diagramming tool specialized for software architecture.</div>
+  </div>
+</a>
+
 <a href="https://sheetjs.com/" target="_blank" rel="noopener" class="sponsor-card">
-  <img style="width: 90px; height: 90px; margin-right: 8px;" src="/images/sponsors/sheetjs.png">
+  <img src="/images/sponsors/sheetjs.png">
   <div>
     <h5>SheetJS</h5>
     <div>Spreadsheets simplified.
@@ -150,6 +161,7 @@ Supports every Excel file format.</div>
   </div>
 </a>
 
+</div>
 
 
 ## License
