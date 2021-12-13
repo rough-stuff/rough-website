@@ -134,6 +134,14 @@ This project is supported by:
 
 <div class="sponsorsPanel">
 
+<a href="https://excalidraw.com/" target="_blank" rel="noopener" class="sponsor-card">
+  <img src="/images/sponsors/excalidraw.png">
+  <div>
+    <h5>Excalidraw</h5>
+    <div>A whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.</div>
+  </div>
+</a>
+
 <a href="https://www.diagrams.net/" target="_blank" rel="noopener" class="sponsor-card">
   <img src="https://avatars.githubusercontent.com/u/1769238?s=96&v=4">
   <div>
