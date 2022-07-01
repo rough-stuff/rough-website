@@ -127,7 +127,7 @@ Algorithm to convert SVG arcs to Canvas [described here](https://www.w3.org/TR/S
 
 ## Support this project
 
-Support development of this project by sponsoring on [Github](https://github.com/sponsors/pshihn).<br>
+Support development of this project by sponsoring on [Github Sponsors](https://github.com/sponsors/pshihn).<br>
 Alternatively, you can also sponsor or [Open Collective](https://opencollective.com/rough). 
 
 This project is supported by:
@@ -139,6 +139,14 @@ This project is supported by:
   <div>
     <h5>Excalidraw</h5>
     <div>A whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.</div>
+  </div>
+</a>
+
+<a href="https://cube.dev/" target="_blank" rel="noopener" class="sponsor-card">
+  <img src="/images/sponsors/cube.jpeg">
+  <div>
+    <h5>Cube</h5>
+    <div>Headless BI for building powerful, fast, and consistent data applications.</div>
   </div>
 </a>
 
