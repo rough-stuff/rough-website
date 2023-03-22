@@ -77,7 +77,7 @@ rc.rectangle(120, 105, 80, 80, {
 });
 ```
 
-Fill styles can be: **hachure**(default), **solid**, **zigzag**, **cross-hatch**, **dots**, **sunburst**, **dashed**, or **zigzag-line**
+Fill styles can be: **hachure**(default), **solid**, **zigzag**, **cross-hatch**, **dots**, **dashed**, or **zigzag-line**
 
 ![Rough.js fill examples](/images/m14.png)
 
