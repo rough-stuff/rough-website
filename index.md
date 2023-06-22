@@ -177,6 +177,22 @@ Supports every Excel file format.</div>
   </div>
 </a>
 
+<a href="https://www.postermaker.com/" target="_blank" rel="noopener" class="sponsor-card">
+  <img src="/images/sponsors/postermaker.png" class="wide">
+  <div>
+    <h5>Poster Maker</h5>
+    <div>A free online poster maker. Design and create your own posters, flyers, memes and typography design.</div>
+  </div>
+</a>
+
+<a href="https://www.chartle.com/" target="_blank" rel="noopener" class="sponsor-card">
+  <img src="/images/sponsors/chartle.png" class="wide">
+  <div>
+    <h5>Chartle</h5>
+    <div>A free online tool where you can create and make your own charts and graphs.</div>
+  </div>
+</a>
+
 </div>
 
 
